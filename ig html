@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="ig-style.css">
+    <link rel="shortcut icon" href="ig logo no bg.png" type="image/x-icon">
+</head>
+<body bgcolor="black" style="font-family: 'Segoe UI', sans-serif;">
+    <div style="display: flex; color: white;">
+        <div style="background-color: rgb(13, 13, 14); width: 15%; margin-right: 50px; height: 100vh; border-right: 1px solid rgba(128, 128, 128, 0.253); position: fixed; overflow: hidden;">
+            <img src="ig logo no bg.png" alt="ig" width="110" style="padding: 25px;">
+            <div id="home" style="padding: 15px; display: flex; margin-right: 15px; transition: 0.2s;">
+                <img src="home.png" alt="home" width="25" height="25" style="object-fit: cover;">
+                <span style="padding-left: 12px; font-size: large;">Home</span>
+            </div>
+            <div id="search" style="padding: 15px; display: flex; margin-right: 15px; transition: 0.2s;">
+                <img src="magnifying-glass.png" alt="search" width="25" height="25" style="object-fit: cover;">
+                <span style="padding-left: 12px; font-size: large;">Search</span>
+            </div>
+            <div id="explore" style="padding: 15px; display: flex; margin-right: 15px; transition: 0.2s;">
+                <img src="compass.png" alt="explore" width="25" height="25" style="object-fit: cover;">
+                <span style="padding-left: 12px; font-size: large;">Explore</span>
+            </div>
+            <div id="reels" style="padding: 15px; display: flex; margin-right: 15px; transition: 0.2s;">
+                <img src="play1.png" alt="reels" width="25" height="25" style="object-fit: cover;">
+                <span style="padding-left: 12px; font-size: large;">Reels</span>
+            </div>
+            <div id="messages" style="padding: 15px; display: flex; margin-right: 15px; transition: 0.2s;">
+                <img src="email.png" alt="messages" width="25" height="25" style="object-fit: cover;">
+                <span style="padding-left: 12px; font-size: large;">Messages</span>
+            </div>
+            <div id="notif" style="padding: 15px; display: flex; margin-right: 15px; transition: 0.2s;">
+                <img src="notification.png" alt="notif" width="25" height="25" style="object-fit: cover;">
+                <span style="padding-left: 12px; font-size: large;">Notifications</span>
+            </div>
+            <div class="sidebarOption" id="create" style="padding: 15px; display: flex; margin-right: 15px; transition: 0.2s;">
+                <img src="add.png" alt="create" width="25" height="25" style="object-fit: cover;">
+                <span style="padding-left: 12px; font-size: large;">Create</span>
+            </div>
+            <div class="sidebarOption" id="profile" style="padding: 15px; display: flex; margin-right: 15px; transition: 0.2s;">
+                <img src="dp1.jpg" alt="prof" width="30" height="30" style="object-fit: cover; border-radius: 50%; border: 3px solid white;">
+                <span style="padding-left: 15px; font-size: large; padding-top: 5px;"><b>Profile</b></span>
+            </div>
+        </div>
+        <div style="width: 85%; margin-left: 100px">
+            <div id="pfp" style="display: flex; padding-left: 450px; padding-top: 15px;">
+                <img src="dp1.jpg" alt="pfp" width="150" height="150" style="border-radius: 50%; object-fit: cover; margin-top: 15px;">
+                <div style="margin-top: 15px;">
+                    <span style="font-size: 25px; margin-left: 50px;">_notleey.</span>
+                    <button style="border-radius: 10px; background-color: rgb(61, 61, 61); color: white; width: 120px; height: 30px; border: none; font-size: 16px; margin-right: 5px; margin-left: 10px;"><a href="http://" style="text-decoration: none; color: white;">Edit profile</a></button>
+                    <button style="border-radius: 10px; background-color: rgb(61, 61, 61); color: white; width: 120px; height: 30px; border: none; font-size: 16px;"><a href="http://" style="text-decoration: none; color: white;">view archive</a></button>
+                    <a href="http://"><img src="settings.png" alt="setting" width="30" height="30" style="margin-bottom: -10px; padding-left: 6px;"></a>
+                    <br>
+                    <div style="display: flex; padding-left: 50px;">
+                        <p style="padding-right: 15px;"><b>9</b> posts</p>
+                        <p style="padding-right: 15px;"><b>345</b> followers</p>
+                        <p style="padding-right: 15px;"><b>164</b> following</p>
+                        <br>
+                    </div>
+                    <div style="padding-left: 50px;">
+                        <b>Kyle Joshua Dela Cruz</b>
+                        <span style="color: gray;"> he/his</span>
+                        <p> 20 | leey. </p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <center>
+            <div style="display: flex; width: 120%; justify-content: center; border-top: 3px solid rgba(128, 128, 128, 0.253);">
+                <div style="display: flex; margin: 0;">
+                    <img src="grid-lines.png" alt="posts" width="25" height="25" style="padding: 13px;">
+                    <p><a href="http://" style="text-decoration: none; color: rgb(235, 223, 223);">Posts</a></p>
+                </div>
+                <div style="display: flex; ">
+                    <img src="bookmark.png" alt="saved" width="25" height="25" style="padding: 13px;">
+                    <p><a href="http://" style="text-decoration: none; color: white;">Saved</a></p>
+                </div>
+                <div style="display: flex;">
+                    <img src="user.png" alt="tag" width="25" height="25" style="padding: 13px;">
+                    <p><a href="http://" style="text-decoration: none; color: white;">Tagged</a></p>
+                </div>
+            </div>
+            <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; width: 60%; gap: 3px;">
+                <div>
+                    <img src="fb pic3.jpg"1" width="340" height="340" style="object-fit: cover;">
+                </div>
+                <div>
+                    <img src="ig.jpg" alt="2" width="340" height="340" style="object-fit: cover;">
+                </div>
+                <div>
+                    <img src="ig1.jpg" alt="3" width="340" height="340" style="object-fit: cover;">
+                </div>
+                <div>
+                    <img src="ig2.jpg" alt="" width="340" height="340" style="object-fit: cover;">
+                </div>
+                <div>
+                    <img src="ig3.jpg" alt="" width="340" height="340" style="object-fit: cover;">
+                </div>
+                <div>
+                    <img src="ig4.jpg" alt="" width="340" height="340" style="object-fit: cover;">
+                </div>
+                <div>
+                    <img src="ig5.jpg" alt="" width="340" height="340" style="object-fit: cover;">
+                </div>
+                <div>
+                    <img src="ig6.jpg" alt="" width="340" height="340" style="object-fit: cover;">
+                </div>
+                <div>
+                    <img src="fb pic1.jpg" alt="" width="340" height="340" style="object-fit: cover;">
+                </div>
+            </div>
+            </center>
+        </div>
+    </div>
+</body>
+</html>
