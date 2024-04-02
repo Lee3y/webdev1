@@ -1,0 +1,130 @@
+header
+{
+    border: 1px solid black;
+    text-align: center;
+}
+nav
+{
+    border: 1px solid black;
+    margin-top: 5px;
+    font-size: 5vh;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.fb-navigation 
+{
+    display: flex;
+    align-items: center;
+}
+.fb-navigation a 
+{
+    margin-right: 10px;
+    margin-left: 5px;
+}
+.fb-navigation form 
+{
+    display: flex;
+    align-items: center;
+}
+.fb-navigation input[type=text]
+{
+    padding: 6px;
+    border: none;
+    border-radius: 15px;
+    flex-grow: 1;
+}
+.fb-navigation button[type=submit]
+{
+    padding: 6px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.flex-container
+{
+    display: flex;
+}
+.column1
+{
+    padding: 15px;
+    width: 40%;
+    margin-top: 2px;
+    position: sticky;
+}
+.column2
+{
+    padding: 15px;
+    width: 60%;
+    margin-top: 2px;
+    position: relative;
+}
+#search-btn
+{
+    background: none;
+    outline: none;
+    border: none;
+    float: right;
+    margin-top: 8px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+#pic-k
+{
+    text-align: right;
+}
+.pfp
+{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 60px;
+}
+.ig-sidebar
+{
+    display: flex;
+    flex-direction: column;
+    width: 13%;
+    padding: 15px;
+    border-right: 1px solid gray;
+    color: white;
+    height: 100vh;
+}
+.container-top
+{
+    display: flex;
+    flex-direction: column;
+}
+.cover-pic img
+{
+    border-radius: 5px;
+    width: 1200px;
+    height: 550px;
+    object-fit: cover;
+}
+.container-top
+{       
+    background-image: linear-gradient(rgb(42, 119, 207),rgb(44, 49, 61),rgb(48, 48, 48));
+    width: 100vw;
+}
+.fb-pfp
+{
+    padding-left: 400px;
+}
+.fb-pfp img
+{
+    border-radius: 50%;
+}
+.nav-label
+{
+    padding-left: 25px;
+}
+
+.post__footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
